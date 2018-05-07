@@ -1,0 +1,14 @@
+@mixin full-height() {
+    height: 100%;
+}
+
+.fixed-header {
+    @include full-height();
+    & > div {
+        overflow-y: auto;
+    }
+
+    .full-height {
+        @include full-height();
+    }
+}

@@ -1,0 +1,1 @@
+export const routesToCache = ["map", "list"];

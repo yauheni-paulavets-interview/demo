@@ -1,0 +1,28 @@
+.custom-dialog-container {
+    position: relative;
+    height: 100%;
+
+    .mat-spinner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    app-attachments {
+        margin-top: 2em;
+        display: block;
+    }
+
+    .mat-toolbar {
+        span:first-child {
+            overflow: hidden;
+            padding: 5px;
+            min-width: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
