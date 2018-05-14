@@ -1,0 +1,8 @@
+<div fxLayout="column" class="fixed-header">
+    <app-header [isMapView]="isMapView"></app-header>
+
+    <div fxFlex [ngClass]="isMapView ? 'full-height' : ''">
+        <app-filter-new-location-actions></app-filter-new-location-actions>
+        <router-outlet></router-outlet>
+    </div>
+</div>

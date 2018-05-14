@@ -1,0 +1,1 @@
+export const genericError = 'An error was thrown, contact your administrator, please.';

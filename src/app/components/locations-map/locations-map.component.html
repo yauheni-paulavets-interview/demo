@@ -1,0 +1,4 @@
+<!-- Google maps based view -->
+<agm-map [latitude]="defaultLocation.coordinates__Latitude__s" [longitude]="defaultLocation.coordinates__Longitude__s" (mapReady)="handleMapReady();" [fitBounds]="latLngBounds">
+  <agm-marker [latitude]="location.coordinates__Latitude__s" [longitude]="location.coordinates__Longitude__s" *ngFor="let location of filteredLocations" (markerClick)="openLocationDialog(location);"></agm-marker>
+</agm-map>
