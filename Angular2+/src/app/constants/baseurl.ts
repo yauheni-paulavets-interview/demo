@@ -1,2 +1,0 @@
-import { environment } from './../../environments/environment';
-export const baseURL = environment.test ? 'http://localhost:3000/' : 'https://eugene-paulavets-inter-developer-edition.ap5.force.com/services/apexrest';

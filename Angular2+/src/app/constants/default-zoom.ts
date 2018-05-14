@@ -1,1 +1,0 @@
-export const defaultZoom = 12;
